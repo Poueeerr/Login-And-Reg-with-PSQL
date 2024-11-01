@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="reg">
+        <h1>Register</h1>
+        <form id="formReg">
+            <div>
+                <label for="usernameReg">Username</label>
+                <input type="text" id="usernameReg">
+            </div>
+            <div>
+                <label for="emailReg">Email</label>
+                <input type="email" id="emailReg">
+            </div>
+            <div>
+                <label for="passReg">Password</label>
+                <input type="password" id="passReg">
+            </div>
+            <div>
+                <label for="confpassReg">Confirm Password</label>
+                <input type="password" id="confpassReg">
+            </div>
+            <div id="error-container"></div> 
+            <button id="regB" type="submit">Sign Up</button>
+        </form>
+    </div>
+
+    <div id="log">
+        <h1>Login</h1>
+        <form id="formLog"> 
+            <div>
+                <label for="usernameLog">Username</label>
+                <input type="text" id="usernameLog">
+            </div>
+            <div>
+                <label for="passLog">Password</label>
+                <input type="password" id="passLog">
+            </div>
+            <button id="logB" type="submit">Sign In</button>
+        </form>
+    </div>
+    
+    <script type="module" src="./scripts/register.js"></script>
+    <script type="module" src="./scripts/login.js"></script>
+</body>
+</html>
