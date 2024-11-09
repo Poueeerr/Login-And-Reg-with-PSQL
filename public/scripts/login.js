@@ -40,3 +40,4 @@ async function login(event) {
         console.error('Erro durante o login:', error);
     }
 }
+
